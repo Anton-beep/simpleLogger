@@ -7,6 +7,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-EXPOSE 3000 3000
+EXPOSE 9000 9000
 
 CMD ["python", "-m", "flask", "run", "--host=0.0.0.0"]
