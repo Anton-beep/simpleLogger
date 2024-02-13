@@ -24,3 +24,11 @@ git clone https://github.com/Anton-beep/simpleLogger
 cd simpleLogger
 bash start.sh
 ```
+
+# Restart:
+```shell
+docker stop simpleLogger
+docker remove simpleLogger
+rm -rf simpleLogger
+```
+then use setup for your system.
