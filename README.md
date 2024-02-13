@@ -22,5 +22,5 @@ python app.py
 ```shell
 git clone https://github.com/Anton-beep/simpleLogger
 cd simpleLogger
-bash build.sh
+bash start.sh
 ```
