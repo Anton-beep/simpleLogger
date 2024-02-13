@@ -9,4 +9,4 @@ COPY . .
 
 EXPOSE 9000 9000
 
-CMD ["python", "-m", "flask", "run", "--host=0.0.0.0"]
+CMD ["python", "-m", "flask", "run", "--host=0.0.0.0", "--port=9000"]
