@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/', methods=['POST', 'GET'])
 def root():
     data = request.get_data()
-    print(data)
+    app.logger.warning(data)
     return {"message": "ok"}
 
 
