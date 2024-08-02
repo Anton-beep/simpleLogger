@@ -1,3 +1,5 @@
+Logger will be available at :9000
+
 # Setup(linux):
 ```shell
 git clone https://github.com/Anton-beep/simpleLogger
@@ -25,7 +27,7 @@ cd simpleLogger
 bash start.sh
 ```
 
-# Restart:
+## Restart:
 ```shell
 docker stop simpleLogger
 docker remove simpleLogger
